@@ -2,8 +2,8 @@ import csv
 from datetime import datetime, timedelta
 
 # File paths
-LOG_FILE = 'logs.log'
-ALERT_LOG_FILE = 'alerts.log'
+LOG_FILE = 'test/data/logs.log'
+ALERT_LOG_FILE = 'test/data/alerts.log'
 
 # Alert thresholds
 WARNING_THRESHOLD = timedelta(minutes=5)
